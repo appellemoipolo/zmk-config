@@ -13,23 +13,23 @@
                 compatible = "zmk,combos";
                 combo_reset_left {
                         timeout-ms = <50>;
-                        key-positions = <0 12 24>;
+                        key-positions = <1 13 25>;
                         bindings = <&reset>;
                 };
                 combo_reset_right {
                         timeout-ms = <50>;
-                        key-positions = <11 23 35>;
+                        key-positions = <10 22 34>;
                         bindings = <&reset>;
                 };
                 combo_bootloader_left {
                         timeout-ms = <50>;
-                        key-positions = <1 13 25>;
-                        bindings = <&reset>;
+                        key-positions = <2 14 26>;
+                        bindings = <&bootloader>;
                 };
                 combo_bootloader_right {
                         timeout-ms = <50>;
-                        key-positions = <10 22 34>;
-                        bindings = <&reset>;
+                        key-positions = <9 21 33>;
+                        bindings = <&bootloader>;
                 };
         };
         keymap {
