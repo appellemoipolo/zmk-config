@@ -100,7 +100,7 @@
 // | SHFT       | Z          | X          | C          | D          | V          |   | K          | H          | , <        | . >        | / ?        | SHFT       |
 //                                        | GUI        | LWR        | SPC        |   | SPC        | RSE        | ALT        |
                         bindings = <
-   &kp ESC      &kp Q        &kp W        &kp F        &kp P        &kp B            &kp J        &kp L        &kp U        &kp Y        &kp SQT      &kp bkspdel
+   &kp ESC      &kp Q        &kp W        &kp F        &kp P        &kp B            &kp J        &kp L        &kp U        &kp Y        &kp SQT      &bkspdel
    &mt LCTRL TAB &kp A       &kp R        &kp S        &kp T        &kp G            &kp M        &kp N        &kp E        &kp I        &kp O        &kp RETURN
    &kp LSHFT    &kp Z        &kp X        &kp C        &kp D        &kp V            &kp K        &kp H        &kp COMMA    &kp DOT      &kp SLASH    &kp RSHFT
                                           &kp LGUI     &mo 1        &kp SPACE        &kp SPACE    &mo 2        &kp RALT
@@ -114,7 +114,7 @@
 // | CAPSLOCK   | C_BRI_DOWN | PAGE_DOWN  | INSERT     | END        | C_VOL_DOWN |   | %          | { }        | ; :        | : !        | \ |        |            |
 //                                        |            |            |            |   |            |            |            |
                         bindings = <
-   &trans       &C_BRI_UP    &PAGE_UP     &UP          &HOME        &C_VOL_UP        &athash      &lparrpar    &underpipe  &CARET       &GRAVE       &trans 
+   &trans       &C_BRI_UP    &PAGE_UP     &UP          &HOME        &C_VOL_UP        &athash      &lparrpar    &underpipe   &CARET       &GRAVE       &trans 
    &PRINTSCREEN &none        &LEFT        &DOWN        &RIGHT       &C_MUTE          &AMPERSAND   &lbktrbkt    &none        &none        &TILD        &trans
    &CAPSLOCK    &C_BRI_DOWN  &PAGE_DOWN   &INSERT      &END         &C_VOL_DOWN      &PERCENT     &lbrcrbrc    &SEMICOLON   &colonexcl   &BACKSLASH   &trans
                                           &trans       &trans       &trans           &trans       &trans       &trans
