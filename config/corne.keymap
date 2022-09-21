@@ -115,8 +115,8 @@
 //                                        |            |            |            |   |            |            |            |
                         bindings = <
    &trans       &kp C_BRI_UP &kp PAGE_UP  &kp UP       &kp HOME     &kp C_VOL_UP     &athash      &lparrpar    &underpipe   &kp CARET    &kp GRAVE    &trans 
-   &PRINTSCREEN &none        &kp LEFT     &kp DOWN     &kp RIGHT    &kp C_MUTE       &kp AMPERSAND &lbktrbkt   &none        &none        &kp TILD     &trans
-   &CAPSLOCK    &kp C_BRI_DOWN &kp PAGE_DOWN &kp INSERT &kp END     &kp C_VOL_DOWN   &kp PERCENT  &lbrcrbrc    &kp SEMICOLON &colonexcl  &kp BACKSLASH &trans
+   &kp PRINTSCREEN &none     &kp LEFT     &kp DOWN     &kp RIGHT    &kp C_MUTE       &kp AMPERSAND &lbktrbkt   &none        &none        &kp TILD     &trans
+   &kp CAPSLOCK &kp C_BRI_DOWN &kp PAGE_DOWN &kp INSERT &kp END     &kp C_VOL_DOWN   &kp PERCENT  &lbrcrbrc    &kp SEMICOLON &colonexcl  &kp BACKSLASH &trans
                                           &trans       &trans       &trans           &trans       &trans       &trans
                         >;
                 };
