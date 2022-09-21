@@ -114,9 +114,9 @@
 // | CAPSLOCK   | C_BRI_DOWN | PAGE_DOWN  | INSERT     | END        | C_VOL_DOWN |   | %          | { }        | ; :        | : !        | \ |        |            |
 //                                        |            |            |            |   |            |            |            |
                         bindings = <
-   &trans       &C_BRI_UP    &PAGE_UP     &UP          &HOME        &C_VOL_UP        &athash      &lparrpar    &underpipe   &CARET       &GRAVE       &trans 
-   &PRINTSCREEN &none        &LEFT        &DOWN        &RIGHT       &C_MUTE          &AMPERSAND   &lbktrbkt    &none        &none        &TILD        &trans
-   &CAPSLOCK    &C_BRI_DOWN  &PAGE_DOWN   &INSERT      &END         &C_VOL_DOWN      &PERCENT     &lbrcrbrc    &SEMICOLON   &colonexcl   &BACKSLASH   &trans
+   &trans       &kp C_BRI_UP &kp PAGE_UP  &kp UP       &kp HOME     &kp C_VOL_UP     &athash      &lparrpar    &underpipe   &kp CARET    &kp GRAVE    &trans 
+   &PRINTSCREEN &none        &kp LEFT     &kp DOWN     &kp RIGHT    &kp C_MUTE       &kp AMPERSAND &lbktrbkt   &none        &none        &kp TILD     &trans
+   &CAPSLOCK    &kp C_BRI_DOWN &kp PAGE_DOWN &kp INSERT &kp END     &kp C_VOL_DOWN   &kp PERCENT  &lbrcrbrc    &kp SEMICOLON &colonexcl  &kp BACKSLASH &trans
                                           &trans       &trans       &trans           &trans       &trans       &trans
                         >;
                 };
@@ -125,11 +125,11 @@
 // -----------------------------------------------------------------------------------------
 // | F1         | F2         | F3         | F4         | F5         | F6         |   | + -        | 7 &        | 8 *        | 9 (        | * /        |            |
 // | F7         | F8         | F9         | F10        | F11        | F12        |   | = +        | 4 $        | 5 %        | 6 ^        | . ,        |            |
-// | BTCLR      | BT 1       | BT2        | BT3        | BT4        | BT5        |   | 0 )        | 1 !        | 2 @        | 3 #        | (  )       |            |
+// | BTCLR      | BT 1       | BT2        | BT3        | BT4        | BT5        |   | 0 )        | 1 !        | 2 @        | 3 #        | ( )        |            |
 //                                        |            |            |            |   |            |            |            |
                         bindings = <
-   &F1          &F2          &F3          &F4          &F5          &F6              &plusminus   &kp N7       &kp N8       &kp N9       &multdivive  &trans
-   &F7          &F8          &F9          &F10         &F11         &F12             &EQUAL       &kp N4       &kp N5       &kp N6       &dotcomma    &trans
+   &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &kp F6           &plusminus   &kp N7       &kp N8       &kp N9       &multdivive  &trans
+   &kp F7       &kp F8       &kp F9       &kp F10      &kp F11      &kp F12          &kp EQUAL    &kp N4       &kp N5       &kp N6       &dotcomma    &trans
    &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp N0       &kp N1       &kp N2       &kp N3       &lparrpar    &trans
                     	                  &trans       &trans       &trans           &trans       &trans       &trans
                         >;
