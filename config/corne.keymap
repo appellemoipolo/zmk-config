@@ -38,7 +38,6 @@
                         #binding-cells = <0>;
                         bindings = <&kp DOT>, <&kp COMMA>;
                         mods = <(MOD_LSFT|MOD_RSFT)>;
-                        COMMA
                 };
                 lparrpar: lpar_rpar {
                         compatible = "zmk,behavior-mod-morph";
