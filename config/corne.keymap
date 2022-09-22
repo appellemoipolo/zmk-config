@@ -114,9 +114,9 @@
 // | CAPSLOCK   | C_BRI_DOWN | PAGE_DOWN  | INSERT     | END        | C_VOL_DOWN |   | %          | { }        | ; :        | : !        | \ |        |            |
 //                                        |            |            |            |   |            |            |            |
                         bindings = <
-   &trans       &kp C_BRI_UP &kp PAGE_UP  &kp UP       &kp HOME     &kp C_VOL_UP     &athash      &lparrpar    &underpipe   &kp CARET    &kp GRAVE    &trans 
+   &trans       &kp C_BRI_UP &kp PG_UP    &kp UP       &kp HOME     &kp C_VOL_UP     &athash      &lparrpar    &underpipe   &kp CARET    &kp GRAVE    &trans 
    &kp PRINTSCREEN &none     &kp LEFT     &kp DOWN     &kp RIGHT    &kp C_MUTE       &kp AMPERSAND &lbktrbkt   &none        &none        &kp TILD     &trans
-   &kp CAPSLOCK &kp C_BRI_DOWN &kp PAGE_DOWN &kp INSERT &kp END     &kp C_VOL_DOWN   &kp PERCENT  &lbrcrbrc    &kp SEMICOLON &colonexcl  &kp BACKSLASH &trans
+   &kp CAPSLOCK &kp C_BRI_DN &kp PG_DN    &kp INSERT   &kp END      &kp C_VOL_DN     &kp PERCENT  &lbrcrbrc    &kp SEMICOLON &colonexcl  &kp BACKSLASH &trans
                                           &trans       &trans       &trans           &trans       &trans       &trans
                         >;
                 };
