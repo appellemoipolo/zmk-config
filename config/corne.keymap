@@ -62,7 +62,7 @@
                         compatible = "zmk,behavior-mod-morph";
                         label = "LBKT_RBKT";
                         #binding-cells = <0>;
-                        bindings = <&kp LBKT>, <&kp macro_rshft_rbkt>;
+                        bindings = <&kp LBKT>, <&macro_rshft_rbkt>;
                         mods = <(MOD_RSFT)>;
                 };
                 
